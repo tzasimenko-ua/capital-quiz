@@ -35,7 +35,7 @@ main {
     height: 100vh;
 }
 
-/* rules.css - добавленные стили */
+/* Rules section style */
 
 .rules-section {
     padding: 30px;
@@ -76,6 +76,8 @@ main {
     background: none;
     border: none;
 }
+
+/* Button style */
 
 .btn {
     padding: 10px 20px;
