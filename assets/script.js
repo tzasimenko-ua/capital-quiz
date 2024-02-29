@@ -192,3 +192,21 @@ if (hitDuplicate) {
         }
         disabledOptions();   //добавить в конце как рещение проблемы 
     }
+
+    const disabledOptions = () => {
+        optionElements.forEach(item => {
+            item.classList.add('disabled')
+            if(item.dataset.id == questions[indexOfQuestion].rightAnswer) {
+                item.classList.add('correct');
+            }
+        })
+    } 
+
+    const enableOptions = () => {
+        optionElements.forEach(item => {
+            item.classList.remove('disabled', 'correct', 'wrong');
+    
+        })
+    
+    };
+    
