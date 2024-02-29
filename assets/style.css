@@ -147,6 +147,7 @@ main {
 .wrong {
     background-color: #FF7272; 
 }
+
 .disabled {
     pointer-events: none;
   }
@@ -209,12 +210,12 @@ main {
 
 .quiz-over-modal.active {
     display: flex;
-    z-index: 1; /* Установите z-index окна с результатами ниже хедера */
+    z-index: 1; 
 
     
 }
 .quiz-over-modal .content {
-  background-color: #fff; /* Измените цвет фона, если нужно */
+  background-color: #fff; 
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -223,12 +224,12 @@ main {
 }
 
 .quiz-over-modal h1 {
-  font-size: 1.5rem; /* Измените размер шрифта заголовка по вашему вкусу */
+  font-size: 1.5rem; 
   margin-bottom: 20px;
 }
 
 .quiz-over-modal p {
-  font-size: 1rem; /* Измените размер шрифта текста по вашему вкусу */
+  font-size: 1rem; 
   margin-bottom: 20px;
 }
 
