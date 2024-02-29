@@ -180,3 +180,15 @@ if (hitDuplicate) {
         completedAnswers.push(indexOfQuestion);
     };
     
+    const checkAnswer = el => {
+        if (el.target.dataset.id == questions[indexOfQuestion].rightAnswer) {
+            el.target.classList.add('correct');
+            updateAnswerTracker('correct');
+            score++;
+        } else {
+            el.target.classList.add('wrong');
+            updateAnswerTracker('wrong');
+    
+        }
+        disabledOptions();   //добавить в конце как рещение проблемы 
+    }
