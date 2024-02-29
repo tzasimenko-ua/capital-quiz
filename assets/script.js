@@ -209,4 +209,17 @@ if (hitDuplicate) {
         })
     
     };
+    const answerTracker = () => {
+        questions.forEach(() =>  {
+            const div = document.createElement('div');
+            answersTracker.appendChild(div);
+    
+        })
+    }
+    
+    const updateAnswerTracker = status => {
+        answersTracker.children[indexOfPage - 1].classList.add(`${status}`);
+    
+    };
+
     
