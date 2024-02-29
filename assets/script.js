@@ -233,3 +233,14 @@ if (hitDuplicate) {
     }; 
 
     btnNext.addEventListener('click', validate);
+
+    for(option of optionElements) {
+        option.addEventListener('click', e => checkAnswer(e));
+    
+    }
+
+    const quizOver = () => {
+        document.querySelector('.quiz-over-modal').classList.add('active');
+        correctAnswer.innerHTML = score;
+        numberOfAllQuestion2.innerHTML = questions.length;
+    };
