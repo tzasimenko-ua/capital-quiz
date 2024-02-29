@@ -35,7 +35,8 @@ main {
     align-items: center;
     height: 100vh;
 }
-
+ 
+/* Start page */
 #start-page {
   background:#ffffff;
   width: 85%;
@@ -64,9 +65,31 @@ main {
   cursor: pointer;
 }
   
+#btn-start:hover {
+    background-color: #45a049;
+  }
+
+   .game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+ .question-area {
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 50px 0;
+}
 
 
-
+ /* Footer */
 footer {
     background-color: #557f69;
     z-index: 2; 
