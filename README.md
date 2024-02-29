@@ -130,3 +130,26 @@ The utilization of the Lighthouse test, integrated into the Google Chrome browse
 ![Mobile](/assets/images/readme_assets.md/11.png)
 ![Сomputer](/assets/images/readme_assets.md/12.png)
 
+
+## Deployment
+The website was deployed on GitHub Pages through the following steps:
+
+Navigate to the "Settings" tab in the GitHub repository.
+In the "Code and Automation" section on the left side of the screen, select 'Pages'.
+In the "Build and Deployment" section, choose 'Deploy from a branch' for Source.
+Select 'main' as the Branch and Save.
+The link to the complete website is provided at the top of the page.
+The deployed site will automatically update with new commits to the master branch.
+You can access the live link [here](https://tzasimenko-ua.github.io/capital-quiz/index.html).
+
+- When creating the site, I used GPT chat to check errors.
+- Basic code combinations were created using information from [w3schools.com](https://www.w3schools.com/)
+
+- I took some ideas from the [Codehal](https://www.youtube.com/watch?v=Vp8x8-reqZA&t=3556s&ab_channel=Codehal), YouTude video, 
+[The WebShala](https://www.youtube.com/watch?v=J8QbjXdVl9c&ab_channel=TheWebShala), YouTude video, 
+[Web Tutorial Guru](https://www.youtube.com/watch?v=Z-HLdIYHjRM&ab_channel=WebTutorialGuru), YouTude video.
+
+### Media
+
+The imge used as a background image is taken from Google images.
+The imge for products creating by GPT
