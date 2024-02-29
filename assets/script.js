@@ -139,3 +139,13 @@ const correctAnswer = document.getElementById('correct-answer'),
         
         const load = () => {
             question.innerHTML = questions[indexOfQuestion].question;
+            option1.innerHTML = questions[indexOfQuestion].options[0];
+    option2.innerHTML = questions[indexOfQuestion].options[1];
+    option3.innerHTML = questions[indexOfQuestion].options[2];
+    option4.innerHTML = questions[indexOfQuestion].options[3];
+
+    numberOfQuestion.innerHTML = indexOfPage + 1;
+     // Устанавливаем номер текущей страницы
+    indexOfPage++;
+   
+};
