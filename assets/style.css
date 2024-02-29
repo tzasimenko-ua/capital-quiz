@@ -1,0 +1,11 @@
+body {
+    background-image: url(/assets/images/backgr.jpeg);
+    background-position: center center;
+      color: #445361;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+  }
