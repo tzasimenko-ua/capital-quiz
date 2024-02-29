@@ -149,3 +149,5 @@ const correctAnswer = document.getElementById('correct-answer'),
     indexOfPage++;
    
 };
+
+let completedAnswers = [];
