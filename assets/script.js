@@ -180,12 +180,12 @@ const randomQuestion = () => {
         indexOfQuestion = randomNumber;
         load();
            }
-       };
+       }
        if (completedAnswers == 0) {
         indexOfQuestion = randomNumber;
         load();
        }
-    };
+    }
     completedAnswers.push(indexOfQuestion);
 };
 
@@ -200,22 +200,22 @@ const checkAnswer = el => {
 
     }
     disabledOptions();
-}
+};
 
 const disabledOptions = () => {
     optionElements.forEach(item => {
-        item.classList.add('disabled')
+        item.classList.add('disabled');
         if(item.dataset.id == questions[indexOfQuestion].rightAnswer) {
             item.classList.add('correct');
         }
-    })
-}
+    });
+};
 
 const enableOptions = () => {
     optionElements.forEach(item => {
         item.classList.remove('disabled', 'correct', 'wrong');
 
-    })
+    });
 
 };
 
@@ -225,8 +225,8 @@ const answerTracker = () => {
         const div = document.createElement('div');
         answersTracker.appendChild(div);
 
-    })
-}
+    });
+};
 
 const updateAnswerTracker = status => {
     answersTracker.children[indexOfPage - 1].classList.add(`${status}`);
@@ -268,4 +268,4 @@ btnTryAgain.addEventListener('click', tryAgain);
         answerTracker();
 
 
-    })
+    });
