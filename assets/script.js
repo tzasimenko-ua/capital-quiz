@@ -244,3 +244,17 @@ if (hitDuplicate) {
         correctAnswer.innerHTML = score;
         numberOfAllQuestion2.innerHTML = questions.length;
     };
+
+    const tryAgain = () => {
+        window.location.reload();
+    
+    };
+
+
+    btnTryAgain.addEventListener('click', tryAgain);
+
+    window.addEventListener('load', () => {
+        randomQuestion();
+        answerTracker();
+
+    })
