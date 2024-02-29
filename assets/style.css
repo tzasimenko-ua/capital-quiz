@@ -1,11 +1,79 @@
 body {
     background-image: url(/assets/images/backgr.jpeg);
     background-position: center center;
-      color: #445361;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-        min-height: 100vh;
-        margin: 0;
+    color: #445361;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  header {
+    z-index: 2;
+    background-color: #557f69;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  header h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#start-page {
+  background:#ffffff;
+  width: 85%;
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#start-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#btn-start {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+
+
+
+footer {
+    background-color: #557f69;
+    z-index: 2; 
+  
+    padding: 10px;
+    color: white; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+  
+  footer p {
+    margin: 0; 
   }
