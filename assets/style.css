@@ -138,7 +138,23 @@ main {
     background-color: #f0f0f0;
   }
   
+ /* Adding styles to highlight the selection result */ 
+.correct {
+    background-color: #8FEC8F; 
+}
 
+.wrong {
+    background-color: #FF7272; /* Красный цвет для неправильного ответа */
+}
+.disabled {
+    pointer-events: none;
+  }
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
 
 
 
