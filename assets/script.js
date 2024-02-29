@@ -249,12 +249,3 @@ if (hitDuplicate) {
         window.location.reload();
     
     };
-
-
-    btnTryAgain.addEventListener('click', tryAgain);
-
-    window.addEventListener('load', () => {
-        randomQuestion();
-        answerTracker();
-
-    })
