@@ -30,3 +30,107 @@ let score = 0; //result of qwiz
 const correctAnswer = document.getElementById('correct-answer'),
       numberOfAllQuestion2 = document.getElementById('number-of-all-questions-2'),
       btnTryAgain = document.getElementById('btn-try-again');
+
+      const questions = [
+        {
+            question: 'What is the capital of France?',
+            options: [
+                'Paris',
+                'Berlin',
+                'Madrid',
+                'Rome',
+            ],
+            rightAnswer: 0
+        },
+        {
+            question: 'Which city serves as the capital of Brazil?',
+            options: [
+                'Buenos Aires',
+                'Sao Paulo',
+                'Rio de Janeiro',
+                'Brasilia',
+            ],
+            rightAnswer: 2
+        },
+        {
+            question: 'What is the capital of Australia?',
+            options: [
+                'Melbourra',
+                'Sydney',
+                'Wellington',
+                'Canberra',
+            ],
+            rightAnswer: 3
+        },
+        {
+            question: 'What is the capital of Japan?',
+            options: [
+            'Seoul',
+            'Beijing',
+            'Tokyo',
+            'Osaka',
+            ],
+            rightAnswer: 2
+            },
+    
+            {
+                question: 'What is the capital of the Netherlands?',
+                options: [
+                    'Amsterdam',
+                    'Rotterdam',
+                    'The Hague',
+                    'Utrecht',
+                ],
+                rightAnswer: 0
+            },
+            {
+                question: 'What is the capital of Ukraine?',
+                options: [
+                    'Kiev',
+                    'Lviv',
+                    'Odessa',
+                    'Kharkiv',
+                ],
+                rightAnswer: 0
+            },
+            {
+                question: 'What is the capital of Iceland?',
+                options: [
+                    'Reykjavik',
+                    'Akureyri',
+                    'Hafnarfjordur',
+                    'Kopavogur',
+                ],
+                rightAnswer: 0
+            },
+            {
+                question: 'What is the capital of the United States?',
+                options: [
+                    'New York',
+                    'Washington, D.C.',
+                    'Los Angeles',
+                    'Chicago',
+                ],
+                rightAnswer: 1
+            },
+            {
+                question: 'What is the capital of Canada?',
+                options: [
+                    'Toronto',
+                    'Vancouver',
+                    'Ottawa',
+                    'Montreal',
+                ],
+                rightAnswer: 2
+            },
+            {
+                question: 'What is the capital of Spain?',
+                options: [
+                    'Barcelona',
+                    'Madrid',
+                    'Valencia',
+                    'Seville',
+                ],
+                rightAnswer: 1
+            }
+        ];        
