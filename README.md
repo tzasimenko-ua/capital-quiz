@@ -124,6 +124,25 @@ The World Capitals Quiz is created for geography enthusiasts and anyone looking 
 
 - **JavaScript:**
   - When passing the official [(Jshint) validator](https://jshint.com/), only warnings were found.
+ 
+
+## Future Plans
+
+In the future, I plan to enhance the user experience and interactivity of the "Capitals of the World Quiz" by incorporating the following features:
+
+### Modal Window Refinement:
+I aim to streamline the modal window for preventing missed selections, making it more user-friendly and informative. This will involve refining the design and messages to provide clearer warnings about empty fields, ensuring a smoother and error-free user experience.
+
+### Interactive Start Page:
+To make the starting page more engaging, I plan to introduce interactive elements, possibly integrating animations or dynamic content. This will create a visually appealing and captivating introduction to the quiz, encouraging users to explore further.
+
+### Results Submission Form:
+I intend to add a results submission form, allowing users to share their quiz scores or achievements. This feature will enhance community engagement and provide a platform for users to showcase their knowledge.
+
+### Personalization and Login Functionality:
+Implementing a login feature will enable personalized greetings and a more tailored experience for users. This will involve creating user accounts, storing quiz results, and customizing greetings based on individual profiles.
+
+These planned enhancements aim to elevate the "Capitals of the World Quiz" to a more interactive, personalized, and feature-rich platform, offering users a captivating and enjoyable learning experience.
 
 ## Lighthouse Test
 
