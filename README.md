@@ -72,7 +72,7 @@ The World Capitals Quiz is created for geography enthusiasts and anyone looking 
 
     Describing the game rules is a crucial step in establishing a clear understanding of the conditions and limitations, ensuring consistency and fairness throughout the gameplay. It not only outlines the rules but also makes players participants in a uniform gaming experience, contributing to high-quality entertainment and satisfaction from participation.
 
-    ![Instructions](/assets/images/readme_assets.md/4.png)
+    ![Instructions](/assets/images/readme_assets.md/4/.png)
 
   - **Additional navigation button:**
 
