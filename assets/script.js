@@ -151,3 +151,32 @@ const correctAnswer = document.getElementById('correct-answer'),
 };
 
 let completedAnswers = [];
+
+const randomQuestion = () => {
+    let randomNumber = Math.floor(Math.random() * questions.length);
+    let hitDuplicate = false;
+
+    if(indexOfPage == questions.length) {
+        quizOver();
+} else {
+    if(completedAnswers.length > 0) {
+        completedAnswers.forEach(item => {
+            if(item == randomNumber) {
+                hitDuplicate = true;
+            }
+        });
+if (hitDuplicate) {
+            randomQuestion();
+     } else {
+            indexOfQuestion = randomNumber;
+            load();
+               }
+           };
+        if (completedAnswers == 0) {
+            indexOfQuestion = randomNumber;
+            load();
+           }
+        };
+        completedAnswers.push(indexOfQuestion);
+    };
+    
