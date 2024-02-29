@@ -222,4 +222,14 @@ if (hitDuplicate) {
     
     };
 
+    const validate = () => {
+        if (!optionElements[0].classList.contains('disabled')) {
+            alert('You need to choose one of the options');
+        } else {
+            randomQuestion();
+            enableOptions();
     
+        }
+    }; 
+
+    btnNext.addEventListener('click', validate);
