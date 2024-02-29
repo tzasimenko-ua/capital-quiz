@@ -1,0 +1,111 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-image: url(/assets/images/backgr.jpeg);
+    font-family: "Rubik", sans-serif;
+    background-position: center center;
+    color: #445361;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    z-index: 2;
+    background-color: #557f69;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* rules.css - добавленные стили */
+
+.rules-section {
+    padding: 30px;
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+}
+
+.rules-section__header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rules-section__title {
+    font-size: 35px;
+    color: #557f69;
+    font-family: 'Kaushan Script', cursive; /* добавленный шрифт */
+}
+
+.rules-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rule-number {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #557f69;
+}
+
+.rule-text {
+    font-size: 18px;
+    color: #445361;
+}
+
+.rules-container {
+    background: none;
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif; /* добавленный шрифт */
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #557f69;
+    z-index: 2; 
+  
+    padding: 10px;
+    color: white; 
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+  
+  footer p {
+    margin: 0; 
+  }

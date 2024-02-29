@@ -38,7 +38,8 @@ main {
  
 /* Start page */
 #start-page {
-  background:#ffffff;
+  background:#E6ECF0;
+  border-radius: 45%;
   width: 85%;
   max-width: 830px;
   margin-left: auto;
@@ -51,23 +52,41 @@ main {
 }
 
 #start-page h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 #btn-start {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #4CAF50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 20px;
 }
-  
+
 #btn-start:hover {
     background-color: #45a049;
   }
+
+ a#btn-rules {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #be57be; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+a#btn-rules:hover {
+    background-color: #b44cb4; 
+}
 
 /* Game area */
 .game-area {
@@ -171,6 +190,8 @@ main {
   #btn-next:hover {
     background-color: #45a049;
   }
+
+
 
 /* Styles for answers-tracker */ 
   #answers-tracker {
