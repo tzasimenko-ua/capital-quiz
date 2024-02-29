@@ -135,4 +135,7 @@ const correctAnswer = document.getElementById('correct-answer'),
             }
         ];  
         
-        numberOfAllQuestion.innerHTML = questions.length;              
+        numberOfAllQuestion.innerHTML = questions.length;   
+        
+        const load = () => {
+            question.innerHTML = questions[indexOfQuestion].question;
