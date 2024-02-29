@@ -113,4 +113,20 @@ The "Start Game" button is designed to initiate the quiz. Upon clicking this but
 | 3  | Click "Next" after answering                 | Move to the next question             |      Moved to the next question                                 |                                                |
 | 4  | Select an incorrect answer                   | Mark the answer as incorrect           |      Answer marked as incorrect                                  |                                                |
 | 5  | Use the "One more try" button                | Restart the game                       |     Game restarted                                   | Game completion and attempting again          |
-| 6  | Navigate to the "Rules" page                 | Display the game rules                |         Game rules displayed                               |                                                |
+| 6  | Navigate to the "Rules" page                 | Display the game rules                |         Game rules displayed                               |                                   
+### Validator Testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator: [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftzasimenko-ua.github.io%2Fcapital-quiz%2Findex.html), [Rules page](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftzasimenko-ua.github.io%2Fcapital-quiz%2Frules.html).
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=uk&profile=css3svg&uri=https%3A%2F%2Ftzasimenko-ua.github.io%2Fcapital-quiz%2Findex.html&usermedium=all&vextwarning=&warning=1).
+
+- JavaScript
+  - When passing the official [(Jshin) validator](https://jshint.com/) only warnings were found
+
+## Lighthouse Test
+
+The utilization of the Lighthouse test, integrated into the Google Chrome browser, has significantly enhanced crucial metrics such as performance, accessibility, and SEO, achieving nearly optimal values.
+![Mobile](/assets/images/readme_assets.md/11.png)
+![Сomputer](/assets/images/readme_assets.md/12.png)
+
