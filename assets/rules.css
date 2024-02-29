@@ -51,7 +51,7 @@ main {
 .rules-section__title {
     font-size: 35px;
     color: #557f69;
-    font-family: 'Kaushan Script', cursive; /* добавленный шрифт */
+    font-family: 'Kaushan Script', cursive; 
 }
 
 .rules-container {
@@ -88,7 +88,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Rubik', sans-serif; /* добавленный шрифт */
+    font-family: 'Rubik', sans-serif; 
 }
 
 .btn:hover {

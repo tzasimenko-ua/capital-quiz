@@ -142,10 +142,10 @@ const questions = [
         }
     ];    
 
-numberOfAllQuestion.innerHTML = questions.length; //количество всех вопросов 
+numberOfAllQuestion.innerHTML = questions.length; 
 
 const load = () => {
-    question.innerHTML = questions[indexOfQuestion].question; //сам вопрос 
+    question.innerHTML = questions[indexOfQuestion].question; 
     
     option1.innerHTML = questions[indexOfQuestion].options[0];
     option2.innerHTML = questions[indexOfQuestion].options[1];
@@ -153,7 +153,7 @@ const load = () => {
     option4.innerHTML = questions[indexOfQuestion].options[3];
 
     numberOfQuestion.innerHTML = indexOfPage + 1;
-     // Устанавливаем номер текущей страницы
+
     indexOfPage++;
    
 };
@@ -199,7 +199,7 @@ const checkAnswer = el => {
         updateAnswerTracker('wrong');
 
     }
-    disabledOptions();   //добавить в конце как рещение проблемы 
+    disabledOptions();
 }
 
 const disabledOptions = () => {
