@@ -133,4 +133,6 @@ const correctAnswer = document.getElementById('correct-answer'),
                 ],
                 rightAnswer: 1
             }
-        ];        
+        ];  
+        
+        numberOfAllQuestion.innerHTML = questions.length;              
