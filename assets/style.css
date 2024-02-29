@@ -138,13 +138,14 @@ main {
     background-color: #f0f0f0;
   }
   
+
  /* Adding styles to highlight the selection result */ 
 .correct {
     background-color: #8FEC8F; 
 }
 
 .wrong {
-    background-color: #FF7272; /* Красный цвет для неправильного ответа */
+    background-color: #FF7272; 
 }
 .disabled {
     pointer-events: none;
@@ -154,15 +155,97 @@ main {
     margin-top: 20px;
     text-align: center;
   }
+
+  #btn-next {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
   
+  #btn-next:hover {
+    background-color: #45a049;
+  }
 
+/* Styles for answers-tracker */ 
+  #answers-tracker {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+#answers-tracker div {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #445361;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: white;
+}
 
+#answers-tracker div.correct {
+    background-color: #8FEC8F;
+}
 
+#answers-tracker div.wrong {
+    background-color: red;
+}
+  
+.quiz-over-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
 
+.quiz-over-modal.active {
+    display: flex;
+    z-index: 1; /* Установите z-index окна с результатами ниже хедера */
 
+    
+}
+.quiz-over-modal .content {
+  background-color: #fff; /* Измените цвет фона, если нужно */
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
+.quiz-over-modal h1 {
+  font-size: 1.5rem; /* Измените размер шрифта заголовка по вашему вкусу */
+  margin-bottom: 20px;
+}
 
+.quiz-over-modal p {
+  font-size: 1rem; /* Измените размер шрифта текста по вашему вкусу */
+  margin-bottom: 20px;
+}
+
+.quiz-over-modal button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quiz-over-modal button:hover {
+  background-color: #45a049;
+}
 
 
  /* Footer */
